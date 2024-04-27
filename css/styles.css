@@ -1,0 +1,232 @@
+/* Estilos generales */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+/* Estilos body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.imglogo{
+    height: 100px;
+    width: 100px;
+}
+/* Estilos header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header div h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos mail */
+
+/* Estilos index */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+}
+
+.img-main{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos destinos */
+.destinos h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color: #0a0a0a;
+    background-color: aqua;
+    margin-bottom: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.viaje{
+    width: 400px;
+    height: 470px;
+    display: inline-block;
+    box-shadow: 0px 13px 23px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 30px;
+}
+
+.viaje img{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.viaje div{
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+h3,h4{
+    text-align: center;
+}
+
+/* Estilos videos */
+
+.videos h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color: #0a0a0a;
+    background-color: aqua;
+    margin-bottom: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+.videos iframe{
+    display: block;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 26px 0px rgba(0,0,0,0.75);
+}
+
+/* Estilos sucursales */
+
+.sucursales h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color: #0a0a0a;
+    /* background-color: aqua; */
+    margin-bottom: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+/* Estilos contacto */
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+input, textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnformulario{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* Estilos generales del footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-info, .footer-contact {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-container h4{
+    color: #fff;
+}
+.footer-container p{
+    color: #fff;
+    font-size: 14px;
+}
+/* h4 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-size: 14px;
+} */
+
+.copyright {
+    padding: 10px;
+    clear: both;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #fff;
+}
